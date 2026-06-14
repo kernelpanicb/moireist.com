@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moiré | Login</title>
+    <meta name="description" content="Sign in to your Moiré client account." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="auth-header">
+      <a class="brand" href="index.html" aria-label="Moiré home">Moiré</a>
+      <a href="signup.html">Create Account</a>
+    </header>
+
+    <main class="auth-shell">
+      <section class="auth-panel" aria-labelledby="login-title">
+        <p>Client Account</p>
+        <h1 id="login-title">Welcome back</h1>
+        <form class="auth-form" action="coming-soon.html">
+          <label for="login-email">Email address</label>
+          <input id="login-email" name="email" type="email" autocomplete="email" required />
+
+          <label for="login-password">Password</label>
+          <input id="login-password" name="password" type="password" autocomplete="current-password" required />
+
+          <button type="submit">Sign In</button>
+        </form>
+        <div class="auth-links">
+          <a href="coming-soon.html">Forgot password?</a>
+          <a href="signup.html">Create your Moiré account</a>
+        </div>
+      </section>
+
+      <section class="auth-editorial" aria-label="Moiré client services">
+        <img src="assets/atelier-editorial.png" alt="Moiré tailoring editorial" />
+        <div>
+          <h2>Private access to collection previews, saved pieces, and atelier appointments.</h2>
+          <p>Client account services are prepared for launch with the Moiré online boutique.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

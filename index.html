@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moiré | Resort 2026</title>
+    <meta
+      name="description"
+      content="Moiré is a fictional luxury fashion house offering refined ready-to-wear, accessories, and atelier services."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="utility-bar">
+        <a href="#client-care">Client Services</a>
+        <a href="#store">Find a Boutique</a>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu">
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <a class="brand" href="index.html" aria-label="Moiré home">Moiré</a>
+
+        <div class="nav-links" id="site-menu" data-menu>
+          <a href="#women">Women</a>
+          <a href="#men">Men</a>
+          <a href="#resort">Resort 2026</a>
+          <a href="#atelier">The Atelier</a>
+          <a href="#gifts">Gifts</a>
+          <a href="#client-care">Concierge</a>
+        </div>
+
+        <div class="nav-actions" aria-label="Shopping tools">
+          <a href="coming-soon.html">Search</a>
+          <a href="login.html">Account</a>
+          <a href="coming-soon.html">Bag</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/campaign-hero.png" alt="Models wearing Moiré Resort 2026 neutral tailoring" />
+        <div class="hero-copy">
+          <p>Resort 2026</p>
+          <h1 id="hero-title">Moiré</h1>
+          <a class="primary-link" href="#women">Discover the Collection</a>
+        </div>
+      </section>
+
+      <section class="category-strip" aria-label="Featured categories">
+        <a href="#women">New Arrivals</a>
+        <a href="#women">Tailoring</a>
+        <a href="#gifts">Silk Objects</a>
+        <a href="#client-care">Private Appointment</a>
+      </section>
+
+      <section class="collection-section" id="women" aria-labelledby="women-title">
+        <div class="section-heading">
+          <p>Women</p>
+          <h2 id="women-title">Best Selling Pieces</h2>
+        </div>
+
+        <div class="product-grid">
+          <article class="product-card">
+            <a href="product.html?product=elara-silk-blouse" aria-label="Shop the Elara silk blouse">
+              <img src="assets/product-blouse.png" alt="Ivory silk blouse" />
+              <span class="product-meta">
+                <span>Elara Silk Blouse</span>
+                <span>$890</span>
+              </span>
+            </a>
+          </article>
+          <article class="product-card">
+            <a href="product.html?product=cendre-shoulder-bag" aria-label="Shop the Cendre shoulder bag">
+              <img src="assets/product-bag.png" alt="Taupe leather shoulder bag" />
+              <span class="product-meta">
+                <span>Cendre Shoulder Bag</span>
+                <span>$2,450</span>
+              </span>
+            </a>
+          </article>
+          <article class="product-card" id="men">
+            <a href="product.html?product=serein-summer-jacket" aria-label="Shop the Serein summer jacket">
+              <img src="assets/product-scarf.png" alt="Oatmeal linen summer jacket" />
+              <span class="product-meta">
+                <span>Serein Summer Jacket</span>
+                <span>$1,780</span>
+              </span>
+            </a>
+          </article>
+          <article class="product-card" id="gifts">
+            <a href="product.html?product=onde-silk-scarf" aria-label="Shop the Onde silk scarf">
+              <img src="assets/product-jacket.png" alt="Folded silk scarf with abstract moire waves" />
+              <span class="product-meta">
+                <span>Onde Silk Scarf</span>
+                <span>$520</span>
+              </span>
+            </a>
+          </article>
+        </div>
+      </section>
+
+      <section class="editorial-grid" id="resort" aria-labelledby="resort-title">
+        <figure>
+          <img src="assets/atelier-editorial.png" alt="Model in cream tailoring holding flowers" />
+        </figure>
+        <div class="editorial-copy">
+          <p>Resort 2026</p>
+          <h2 id="resort-title">A Study in Light, Cloth, and Movement</h2>
+          <p>
+            Fluid tailoring, matte silk, and sculptural leather are composed for warm days,
+            long evenings, and the quiet precision of an everyday uniform.
+          </p>
+          <a class="text-link" href="coming-soon.html">View the Lookbook</a>
+        </div>
+      </section>
+
+      <section class="atelier-band" id="atelier" aria-labelledby="atelier-title">
+        <div>
+          <p>The Atelier</p>
+          <h2 id="atelier-title">Made with a Private Hand</h2>
+        </div>
+        <p>
+          Moiré pieces are cut in limited runs, finished with discreet construction, and fitted
+          by appointment for clients seeking a precise silhouette.
+        </p>
+      </section>
+
+      <section class="service-grid" id="client-care" aria-label="Client services">
+        <article>
+          <h3>Concierge</h3>
+          <p>Personal shopping, sizing guidance, and private wardrobe appointments.</p>
+        </article>
+        <article>
+          <h3>Complimentary Delivery</h3>
+          <p>Express delivery and refined packaging on every domestic order.</p>
+        </article>
+        <article>
+          <h3>Boutique Collection</h3>
+          <p>Reserve online and collect selected pieces in a Moiré salon.</p>
+        </article>
+      </section>
+
+      <section class="newsletter" aria-labelledby="newsletter-title">
+        <p>Moiré Notes</p>
+        <h2 id="newsletter-title">Receive collection previews and private appointment invitations.</h2>
+        <form>
+          <label class="sr-only" for="email">Email address</label>
+          <input id="email" type="email" placeholder="Email address" autocomplete="email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer" id="store">
+      <div>
+        <a class="brand footer-brand" href="index.html">Moiré</a>
+        <p>Fictional luxury fashion house. New York, Paris, Istanbul.</p>
+        <p class="footer-social">Instagram <a href="https://www.instagram.com/moireist/" rel="noopener">@moireist</a></p>
+      </div>
+      <div class="footer-links">
+        <a href="coming-soon.html">Contact</a>
+        <a href="coming-soon.html">Shipping</a>
+        <a href="coming-soon.html">Appointments</a>
+        <a href="coming-soon.html">Privacy</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moiré | Sign Up</title>
+    <meta name="description" content="Create a Moiré client account." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="auth-header">
+      <a class="brand" href="index.html" aria-label="Moiré home">Moiré</a>
+      <a href="login.html">Sign In</a>
+    </header>
+
+    <main class="auth-shell">
+      <section class="auth-panel" aria-labelledby="signup-title">
+        <p>New Client</p>
+        <h1 id="signup-title">Create your Moiré account</h1>
+        <form class="auth-form" action="coming-soon.html">
+          <label for="signup-name">Full name</label>
+          <input id="signup-name" name="name" type="text" autocomplete="name" required />
+
+          <label for="signup-email">Email address</label>
+          <input id="signup-email" name="email" type="email" autocomplete="email" required />
+
+          <label for="signup-password">Password</label>
+          <input id="signup-password" name="password" type="password" autocomplete="new-password" required />
+
+          <button type="submit">Create Account</button>
+        </form>
+        <div class="auth-links">
+          <a href="login.html">Already have an account?</a>
+          <a href="coming-soon.html">Client privacy notice</a>
+        </div>
+      </section>
+
+      <section class="auth-editorial" aria-label="Moiré account benefits">
+        <img src="assets/campaign-hero.png" alt="Moiré Resort 2026 campaign" />
+        <div>
+          <h2>Save pieces, request private appointments, and receive early collection notes.</h2>
+          <p>Secure account services are coming with the full Moiré commerce launch.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

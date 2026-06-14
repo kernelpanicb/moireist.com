@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Moiré | Product Preview</title>
+    <meta name="description" content="Preview Moiré product details, materials, sizing, and client services." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-product-page>
+    <header class="site-header product-header">
+      <nav class="main-nav product-nav" aria-label="Main navigation">
+        <button class="menu-toggle" type="button" data-menu-toggle aria-expanded="false" aria-controls="site-menu">
+          <span></span>
+          <span></span>
+          <span class="sr-only">Menu</span>
+        </button>
+
+        <a class="product-search" href="index.html#women" aria-label="Back to collection">Search</a>
+        <a class="brand" href="index.html" aria-label="Moiré home">Moiré</a>
+
+        <div class="nav-links" id="site-menu" data-menu>
+          <a href="index.html#resort">Resort 2026</a>
+          <a href="index.html#women">Women</a>
+          <a href="index.html#men">Men</a>
+          <a href="index.html#gifts">Gifts</a>
+          <a href="index.html#atelier">Atelier</a>
+        </div>
+
+        <div class="nav-actions" aria-label="Shopping tools">
+          <a href="login.html">Account</a>
+          <a href="coming-soon.html">Saved</a>
+          <a href="coming-soon.html">Bag</a>
+        </div>
+      </nav>
+    </header>
+
+    <main class="product-detail-layout">
+      <section class="product-gallery" data-product-gallery aria-label="Product images">
+        <figure class="product-media product-media-primary">
+          <img data-product-image alt="" />
+        </figure>
+        <figure class="product-media product-media-detail">
+          <img data-product-detail-image alt="" />
+        </figure>
+        <figure class="product-media product-media-crop">
+          <img data-product-crop-image alt="" />
+        </figure>
+        <figure class="product-media product-media-context">
+          <img src="assets/campaign-hero.png" alt="Moiré Resort 2026 campaign styling context" />
+        </figure>
+      </section>
+
+      <aside class="product-panel" aria-label="Product information">
+        <div class="product-title-row">
+          <div>
+            <h1 data-product-name>Product</h1>
+            <p data-product-material></p>
+          </div>
+          <button class="save-button" type="button" aria-label="Save product">♡</button>
+        </div>
+
+        <p class="product-price" data-product-price></p>
+
+        <div class="product-divider"></div>
+
+        <section class="product-option" aria-labelledby="color-title">
+          <h2 id="color-title">Color : <span data-product-color></span></h2>
+          <button class="color-swatch" type="button" data-product-swatch aria-label="Selected color"></button>
+        </section>
+
+        <div class="product-size-row">
+          <a href="coming-soon.html">Select</a>
+          <a href="coming-soon.html">Size Guide</a>
+        </div>
+
+        <a class="add-to-bag" href="coming-soon.html" data-add-to-bag>Add to Bag</a>
+
+        <div class="client-links">
+          <p>Gift guide <a href="coming-soon.html">Discover more</a></p>
+          <p>You need help? <a href="coming-soon.html">Contact us</a></p>
+          <p>Our packaging <a href="coming-soon.html">Discover more</a></p>
+        </div>
+
+        <p class="product-description" data-product-description></p>
+
+        <div class="product-accordions">
+          <details open>
+            <summary>Product details</summary>
+            <p data-product-details></p>
+          </details>
+          <details>
+            <summary>Shipping and returns</summary>
+            <p>Complimentary delivery, refined packaging, and returns within 14 days of receipt.</p>
+          </details>
+          <details>
+            <summary>Client care</summary>
+            <p>Book a private appointment for sizing advice, styling support, or atelier alterations.</p>
+          </details>
+        </div>
+      </aside>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="product.js"></script>
+  </body>
+</html>
